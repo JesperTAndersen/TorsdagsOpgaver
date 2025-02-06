@@ -1,0 +1,10 @@
+String teacherName = "Tess Løvgreen";
+int daysInYear = 365;
+String cityName= "København";
+boolean capital=true;
+int totalDailyMinutes = 60*24;
+float date = 22.12;
+String introduction = "Hej, jeg heddder "+teacherName;
+boolean b=false;
+float addition = 2.2 + 33;
+char keybindDown ='S';
