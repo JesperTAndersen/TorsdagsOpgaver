@@ -47,7 +47,7 @@ void setup() {
   println("previous division + 3 er = " + division);
   
   //4.h
-    //4.g
+  //4.g
   addition = addition -1;
   division = division - 1;
   

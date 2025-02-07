@@ -2,10 +2,12 @@
 String address = ("adress");
 
 //3.c
-int addition = "number" + "tal";
+int addition = 1 + 3;
 
 ///3.d
-int division = "tal"/ "tal";
+int division = 10/ 1;
 
 //3.e
-String useAllVariables = address + addition + division;
+String useAllVariables = address + " "  + addition + " "  + division;
+
+println(useAllVariables);
