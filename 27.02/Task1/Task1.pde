@@ -7,14 +7,9 @@ void setup(){
 
 
 
-
-
-
-
-
 int getRandom(){
 
-int total = arr[(int)random(5)];
+int total = arr[(int)random(arr.length)];
   
 return total;
 }

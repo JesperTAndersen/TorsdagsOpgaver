@@ -6,13 +6,13 @@ class Circle {
     xpos = _xpos;
     ypos = _ypos;
   }
-  
-  void display(){
-  square(xpos, ypos, 50);
+
+  void display() {
+    square(xpos, ypos, 50);
   }
-  
-  void move(float a, float b){
-  a = xpos + a;
-  b = ypos + b;
+
+  void move(float a, float b) {
+    xpos += a;
+    ypos += b;
   }
 }

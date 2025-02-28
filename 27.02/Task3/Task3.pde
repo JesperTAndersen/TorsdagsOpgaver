@@ -1,9 +1,9 @@
 String[] rapArray = {"LOC", "BaiD", "Orgi-E", "PedeB","Kanye"};
-String[] trackArray = {"LOC1", "BaiD1", "Orgi-E1", "PedeB1", "Kanye1"};
+String[] trackArray = {"LOC.HIT", "BaiD.HIT", "Orgi-E.HIT", "PedeB.HIT", "Kanye.HIT"};
 
-int i = 0;
+int counter = 0;
 
-for(String k: rapArray){  
-  println(i+1 + ". " + k + ": " + trackArray[i]);
-  i++;
+for(String artist: rapArray){  
+  println(counter+1 + ". " + artist + ": \"" + trackArray[counter] + "\"");
+  counter++;
 }
