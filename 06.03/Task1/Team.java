@@ -13,6 +13,7 @@ class Team{
 		this.teamRank = rank;
 	}
 
+	@Override
 	public String toString(){
 	    String s = "Team " + this.teamName + ", Rang: " + this.teamRank + "\nTeam Medlemmer:\n";
     

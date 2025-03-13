@@ -12,6 +12,10 @@ class Main{
 	System.out.println();
 	System.out.println("Hello " + name + ", Please type your age:");
 		
+		int age1 = scanner.nextInt();
+		scanner.nextLine();
+		System.out.println("Hello " + name + ", Please type your age:");
+
 		String age = scanner.nextLine();
 
 	int ageAsNum = 0;

@@ -8,6 +8,7 @@ public class GuessANumber {
         // pick a random number
         Random random = new Random();
         rnd_number = random.nextInt(100) + 1;
+        System.out.println();
         System.out.println( "I'm thinking of a number between 1 and 100 (including both).");
 	System.out.println( "Can you guess what it is?...");
         makeAGuess();
@@ -20,23 +21,28 @@ public class GuessANumber {
 
         // use hasNextDouble to check if input is numeric,
         // if so...
-    if(scanner.hasNextDouble()){
-        double guess = scanner.nextDouble();
+    if(scanner.hasNextInt()){
+        int guess = scanner.nextInt();
             if (guess < 1 || guess > 100){
+                System.out.println();
                 System.out.println("Guess is out of bounds, please pick a number between 1 and 100(including both)");
             } else{
                 if (guess < rnd_number){
+                    System.out.println();
                     System.out.println("The number i think of is higher than: " + guess);
                     makeAGuess();
                 } else if (guess > rnd_number){
+                    System.out.println();
                     System.out.println("The number i think of is lower than: " + guess);
                     makeAGuess();
                 } else if (guess == rnd_number){
+                    System.out.println();
                     System.out.println("Correct! the number i thought of was: " + guess);
                 }
 
             }
 } else {
+    System.out.println();
     System.out.println("Invalid input, please enter a number.");
     scanner.next();
     makeAGuess();
