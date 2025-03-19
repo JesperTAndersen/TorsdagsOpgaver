@@ -49,11 +49,7 @@ public class Main {
     }
 
     public static boolean isNormal(Building building) {
-        if (building.getNumberOfFloors() <= countRoomsInBuilding(building)) {
-            return true;
-        } else {
-            return false;
-        }
+        return (building.getNumberOfFloors() <= countRoomsInBuilding(building));
     }
 }
 

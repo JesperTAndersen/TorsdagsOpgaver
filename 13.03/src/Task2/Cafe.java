@@ -22,7 +22,8 @@ public class Cafe {
             }
 
         }catch(FileNotFoundException e){
-            System.err.println("ERROR: File not Found");
+            throw new RuntimeException("ERROR: File not Found" + e);
+            //System.err.println("ERROR: File not Found");
         }
     }
 
